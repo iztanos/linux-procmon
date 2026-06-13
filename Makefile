@@ -3,7 +3,9 @@ CXXFLAGS = -std=c++17 -Wall -Wextra -pedantic -Iinclude
 
 TARGET = procmon
 
-SRC = src/main.cpp
+SRC = src/main.cpp \
+      src/ProcReader.cpp \
+      src/Formatter.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
