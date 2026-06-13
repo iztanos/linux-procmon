@@ -1,0 +1,7 @@
+procmon
+*.o
+*.out
+*.log
+build/
+.vscode/
+.idea/
