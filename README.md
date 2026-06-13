@@ -1,4 +1,4 @@
-# C++ Linux Process Monitor
+# C++ Linux Procmon
 
 A command-line Linux process monitor written in C++.
 
