@@ -15,6 +15,9 @@ The program reads process information from the Linux `/proc` virtual filesystem 
   - process state
   - memory usage in KB
 - Handles processes that disappear while being read
+- Supports sorting by PID, name, state, and memory usage
+- Supports filtering by process name
+- Supports filtering by process state
 
 ## Build
 
@@ -22,10 +25,15 @@ The program reads process information from the Linux `/proc` virtual filesystem 
 make
 ```
 
-## Run
+## Usage
 
 ```bash
 ./procmon
+./procmon --help
+./procmon --sort mem
+./procmon --sort name
+./procmon --filter-name bash
+./procmon --filter-state R
 ```
 
 Or:
