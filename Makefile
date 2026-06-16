@@ -5,7 +5,9 @@ TARGET = procmon
 
 SRC = src/main.cpp \
       src/ProcReader.cpp \
-      src/Formatter.cpp
+      src/Formatter.cpp \
+      src/CLIParser.cpp \
+      src/ProcessTable.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
